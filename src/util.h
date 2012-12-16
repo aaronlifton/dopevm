@@ -8,6 +8,8 @@ void panic(char *, ...);
 #endif
 ;
 
+// http://unixwiz.net/techtips/gnu-c-attributes.html
+
 #define TRUE 1
 #define FALSE 0
 

@@ -57,6 +57,7 @@ int main(int argc, char *argv[]) {
       printf("Executing program2:\n"); ret &= run_program_static(2);
       printf("Executing program3:\n"); ret &= run_program_static(3);
       printf("Executing program4:\n"); ret &= run_program_static(4);
+      printf("Executing program5:\n"); ret &= run_program_static(5);
     } else {
       printf("Running program.\n");
       ret = run_program_static(prog);

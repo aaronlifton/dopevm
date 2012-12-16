@@ -58,6 +58,8 @@ int run_program_static(int program) {
     ip = program3;
   else if(program == 4)
     ip = program4;
+  else if(program == 5)
+    ip = program5;
   else {
     printf("Incorrect program\n");
     exit(-1);
